@@ -1,0 +1,163 @@
+# GitHub 上传详细步骤（超详细！跟着做就行）
+
+## 准备工作
+✅ 你的项目在：G:\my code\ai-dev-tools
+✅ GitHub 账号：Meikowo
+
+---
+
+## 第一步：创建 GitHub 仓库
+
+1. 打开浏览器，访问：https://github.com
+2. 确保已登录（右上角显示你的头像）
+3. 点击右上角的 **+** 号
+4. 点击 **"New repository"**
+
+## 第二步：填写仓库信息
+
+在创建页面填写：
+
+Repository name（仓库名）：
+  ✍️ 输入：ai-dev-tools
+
+Description（描述）：
+  ✍️ 输入：Free AI-powered tools for developers
+
+Public / Private：
+  ⭕ 选择 Public（公开）
+
+⚠️ 重要：下面的选项都不要勾选！
+  ☐ Add a README file（不要勾选）
+  ☐ Add .gitignore（不要勾选）
+  ☐ Choose a license（不要勾选）
+
+点击绿色按钮：Create repository
+
+---
+
+## 第三步：上传项目文件
+
+创建成功后，你会看到新页面。
+
+### 方法 A：拖拽上传（推荐）
+
+1. 点击页面上的链接：uploading an existing file
+
+2. 打开文件管理器（按 Win + E）
+
+3. 导航到：G:\my code\ai-dev-tools
+
+4. 选择以下文件和文件夹（必须全部上传）：
+
+   📁 app（整个文件夹）
+   📁 components（整个文件夹）
+   📄 .gitignore
+   📄 LICENSE
+   📄 next.config.js
+   📄 package.json
+   📄 postcss.config.js
+   📄 README.md
+   📄 tailwind.config.ts
+   📄 tsconfig.json
+
+5. 把这些文件拖拽到浏览器的上传区域
+
+6. 等待上传完成（可能需要几分钟）
+
+### 方法 B：逐个上传（更稳定）
+
+1. 点击 "choose your files" 按钮
+
+2. 按顺序选择文件（每次选一个）：
+   - 先上传 app 文件夹里的所有文件
+   - 再上传 components 文件夹里的所有文件
+   - 最后上传根目录的其他文件
+
+3. 重复步骤 2，直到所有文件都上传完
+
+---
+
+## 第四步：提交更改
+
+所有文件上传完成后：
+
+1. 滚动到页面最底部
+
+2. 在 "Commit message" 输入框里输入：
+   feat: initial commit - AI Dev Tools
+
+3. 确保选择了 "Commit directly to the main branch"
+
+4. 点击绿色按钮：Commit changes
+
+---
+
+## 第五步：验证上传成功
+
+1. 等待页面刷新
+
+2. 你应该能看到：
+   - 项目首页
+   - 所有上传的文件
+   - README.md 的内容会显示在页面下方
+
+3. 你的仓库地址：
+   https://github.com/Meikowo/ai-dev-tools
+
+✅ 完成！你的项目已经在 GitHub 上了！
+
+---
+
+## 第六步：部署到 Vercel（让网站上线）
+
+上传成功后：
+
+1. 访问：https://vercel.com
+
+2. 点击 "Sign Up" 或 "Log In"
+
+3. 选择 "Continue with GitHub"
+
+4. 授权 Vercel 访问你的 GitHub
+
+5. 点击 "Add New..." -> "Project"
+
+6. 找到并选择 "ai-dev-tools" 仓库
+
+7. 点击 "Import"
+
+8. 点击 "Deploy" 按钮
+
+9. 等待几分钟...
+
+10. 完成！你会得到一个网址，比如：
+    https://ai-dev-tools-xyz.vercel.app
+
+🎉 你的网站上线了！
+
+---
+
+## 常见问题
+
+### Q: 上传时显示错误怎么办？
+A: 刷新页面，重新上传
+
+### Q: 文件太多，上传很慢？
+A: 耐心等待，或者分批上传
+
+### Q: 上传后找不到文件？
+A: 刷新页面，或者点击 "Code" 标签
+
+### Q: Vercel 部署失败？
+A: 检查是否正确上传了 package.json 文件
+
+---
+
+## 需要帮助？
+
+如果遇到问题：
+1. 检查是否上传了所有必需文件
+2. 查看 GitHub 页面的错误提示
+3. 刷新页面重试
+
+或者告诉我，我来帮你解决！

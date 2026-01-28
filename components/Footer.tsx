@@ -7,9 +7,9 @@ export default function Footer() {
             🛠️ Free AI-powered tools for developers
           </p>
           <p className="text-sm">
-            Made with ❤️ |{' '}
+            Made with ❤️ by Meikowo |{' '}
             <a
-              href="https://github.com"
+              href="https://github.com/Meikowo/ai-dev-tools"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600 transition"

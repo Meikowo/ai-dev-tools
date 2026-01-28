@@ -47,7 +47,7 @@ Just visit [https://ai-dev-tools.vercel.app](https://ai-dev-tools.vercel.app) an
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-dev-tools.git
+git clone https://github.com/Meikowo/ai-dev-tools.git
 
 # Navigate to the project directory
 cd ai-dev-tools
@@ -75,7 +75,7 @@ npm start
 
 The easiest way to deploy is using [Vercel](https://vercel.com):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/ai-dev-tools)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Meikowo/ai-dev-tools)
 
 ## 🤝 Contributing
 
@@ -91,8 +91,8 @@ If you find this project helpful, please consider giving it a ⭐ star on GitHub
 
 ## 📧 Contact
 
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-- GitHub Issues: [Submit an issue](https://github.com/yourusername/ai-dev-tools/issues)
+- Email: [763595935@qq.com](mailto:763595935@qq.com)
+- GitHub Issues: [Submit an issue](https://github.com/Meikowo/ai-dev-tools/issues)
 
 ## 🙏 Acknowledgments
 
@@ -102,4 +102,4 @@ If you find this project helpful, please consider giving it a ⭐ star on GitHub
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Meikowo](https://github.com/Meikowo)

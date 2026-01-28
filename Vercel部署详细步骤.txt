@@ -1,0 +1,195 @@
+# Vercel 部署详细步骤
+
+## 🚀 让你的网站上线！
+
+### 准备工作
+✅ 你的项目已在 GitHub：https://github.com/Meikowo/ai-dev-tools
+✅ 你有 GitHub 账号（Meikowo）
+
+---
+
+## 第一步：注册/登录 Vercel
+
+1. 打开浏览器，访问：https://vercel.com
+
+2. 点击右上角的 "Sign Up" 或 "Log In"
+
+3. 选择 "Continue with GitHub"（用 GitHub 登录）
+
+4. 如果是第一次使用，会授权 Vercel 访问你的 GitHub：
+   - 点击 "Authorize Vercel"
+   - 允许 Vercel 访问你的仓库
+
+---
+
+## 第二步：创建新项目
+
+登录后，你会看到 Vercel 的控制台：
+
+1. 点击顶部菜单的 "Add New..." 按钮
+
+2. 选择 "Project"（创建新项目）
+
+---
+
+## 第三步：导入 GitHub 仓库
+
+在 "Import Git Repository" 页面：
+
+1. 找到 "ai-dev-tools" 仓库
+   - 可能需要向下滚动
+   - 或者在搜索框输入 "ai-dev-tools"
+
+2. 点击仓库右侧的 "Import" 按钮
+
+---
+
+## 第四步：配置项目（通常自动完成）
+
+Vercel 会自动检测 Next.js 项目并填入配置：
+
+### 项目配置
+
+Project Name: ai-dev-tools（可以修改）
+
+Framework Preset: Next.js
+✅ 这是自动检测的
+
+Root Directory: ./
+✅ 保持默认
+
+Build Command: npm run build
+✅ 自动填入
+
+Output Directory: (留空)
+✅ Next.js 不需要设置
+
+Install Command: npm install
+✅ 自动填入
+
+### 环境变量（不需要）
+这个项目不需要设置环境变量，直接跳过。
+
+---
+
+## 第五步：开始部署
+
+1. 检查配置无误后，点击底部蓝色按钮："Deploy"
+
+2. Vercel 开始构建和部署：
+   - 下载依赖（npm install）
+   - 构建项目（npm run build）
+   - 部署到 CDN
+
+3. 你会看到实时的构建日志：
+   ```
+   Installing dependencies...
+   Building project...
+   Deploying...
+   ```
+
+4. 大约 1-2 分钟，状态会变成 "Ready"
+
+---
+
+## 第六步：访问你的网站！🎉
+
+部署成功后：
+
+1. Vercel 会显示一个绿色的 "Success!" 页面
+
+2. 你的网站地址：
+   ```
+   https://ai-dev-tools.vercel.app
+   ```
+
+   或者是：
+   ```
+   https://ai-dev-tools-你的用户名.vercel.app
+   ```
+
+3. 点击链接访问你的网站！
+
+4. 你可以把这个链接分享给任何人！
+
+---
+
+## 第七步：设置自定义域名（可选）
+
+如果你想用自己的域名：
+
+1. 在项目页面，点击 "Settings" 标签
+
+2. 点击左侧 "Domains"
+
+3. 点击 "Add" 添加域名
+
+4. 按照提示配置 DNS 记录
+
+5. 等待 SSL 证书生成（自动）
+
+---
+
+## 第八步：查看项目仪表板
+
+在 Vercel 项目页面，你可以：
+
+- 查看部署历史
+- 查看访问统计（Analytics）
+- 查看错误日志（Logs）
+- 重新部署（Redeploy）
+- 管理环境变量（Environment Variables）
+- 设置域名（Domains）
+
+---
+
+## 更新项目
+
+当你修改代码后：
+
+1. 提交到 GitHub：
+   ```bash
+   git add .
+   git commit -m "update: new changes"
+   git push
+   ```
+
+2. Vercel 会自动检测到更新并重新部署！
+
+3. 几分钟后，新版本就上线了！
+
+---
+
+## 常见问题
+
+### Q: 部署失败怎么办？
+A:
+- 检查 "Build & Deploy Logs" 查看错误信息
+- 确保所有文件都已上传到 GitHub
+- 确保配置正确（Framework: Next.js）
+
+### Q: 构建时间太长？
+A: 第一次会慢一些（安装依赖），后续部署会快很多
+
+### Q: 如何查看网站访问量？
+A: 在 Vercel 项目页面，点击 "Analytics" 标签
+
+### Q: 免费版有什么限制？
+A:
+- 100GB 带宽/月
+- 无限项目
+- 无限部署
+- 自动 HTTPS
+- CDN 全球加速
+- 对于个人项目完全够用！
+
+---
+
+## 完成！🎉
+
+恭喜！你的网站已经上线了！
+
+项目地址：https://github.com/Meikowo/ai-dev-tools
+网站地址：（部署后 Vercel 会给你）
+
+现在全世界都可以访问你的 AI Dev Tools 了！
